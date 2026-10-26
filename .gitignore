@@ -3,3 +3,6 @@
 .idea/
 .recovery/tools/
 .recovery/*.log
+artifacts/
+.recovery/packages/
+.recovery/PackageCheck/
