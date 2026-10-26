@@ -1,5 +1,6 @@
 using System;
 using System.Linq;
+using SharpExtensions;
 using StableCollections.Array2D.Mutable;
 using StableCollections.Array2D.Persistent;
 using StableCollections.Map.Persistent;
@@ -8,6 +9,7 @@ using StableCollections.Set.Persistent;
 
 namespace StableCollections;
 
+[AutoGlobalUsingStatic]
 public static class StableCollectionsFactory
 {
 	public static IMutableStableArray2D<T> MutableStableArray2DOf<T>(ReadOnlySpan<T[]> elements)

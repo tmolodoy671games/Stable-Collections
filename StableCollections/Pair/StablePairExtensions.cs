@@ -3,7 +3,7 @@ namespace StableCollections;
 
 public static class StablePairExtensions
 {
-	public static (A First, B Second) To<A, B>(this A first, B second)
+	public static (TA First, TB Second) To<TA, TB>(this TA first, TB second)
 	{
 		return (First: first, Second: second);
 	}
